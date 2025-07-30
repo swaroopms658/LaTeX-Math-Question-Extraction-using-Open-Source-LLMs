@@ -127,6 +127,7 @@ pytest tests/
 - Adjust chunk size and filtering heuristics in `chunking.py` to optimize context vs speed.
 - Customize the prompt in `llm_extract.py` for your desired extraction style.
 - Always review and lightly clean the generated LaTeX before using in production documents.
+- Extract the zip folders and follow the same structure and following the steps will give correct output
 
 ---
 
