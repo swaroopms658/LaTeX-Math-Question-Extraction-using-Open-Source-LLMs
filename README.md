@@ -48,7 +48,7 @@ Linux/Mac
 source .venv/bin/activate
 
 
-3. **Install required packages:**
+2. **Install required packages:**
 
 Install dependencies listed in `requirements.txt` (example content below):
 
