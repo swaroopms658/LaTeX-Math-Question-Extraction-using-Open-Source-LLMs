@@ -5,7 +5,7 @@ This project provides an end-to-end pipeline to **automatically extract and gene
 ---
 
 ## Project Folder Structure
-
+'''
 rdsharma_extractor/
 ├── data/
 │ └── rd.pdf # Place your RD Sharma PDF here
@@ -29,7 +29,7 @@ rdsharma_extractor/
 ├── requirements.txt # Python dependencies list
 └── README.md # This file
 
-
+'''
 ---
 
 ## Setup & Installation
