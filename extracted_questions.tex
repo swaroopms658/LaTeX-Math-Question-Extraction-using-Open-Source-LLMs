@@ -1,0 +1,1850 @@
+Extract only the math questions from the following text.
+Output the questions strictly in LaTeX math notation format.
+Do NOT add any explanations or other text.
+
+Text:
+In section 30.3, we have introduced the concept of conditional probability which has been used
+in multiplication theorem of probability. In this section, we will obtain a formula for finding the
+conditional probability.
+If A and B are two events associated with a random experiment, then
+P(AnB)=P(A)P(B/A),ifP(A)7^0
+P(AnB) = P(B)P(A/6), iiP{B)^0
+P (A n B)
+[Multiplication theorem]
+or.
+P (A n B)
+P{A/B) =
+and P(B/A) =
+P(A)
+30.5.1
+PROPERTIES OF CONDITIONAL PROBABILITY
+Following are some properties of conditional probability which are stated and proved as
+theorems.
+P(B)
+THEOREM 1
+Let A and B be two events associated luith sample space S, then 0 < P (A/B) < 1.
+PROOF
+We know that
+A n B c B => P (A n B) < P (B) => P (A n B)
+[V P(B)>0]
+<1, ifP(B)^0
+P(B)
+P(AnB)
+Also,
+P (A n B) > 0 and P (B) > 0. Therefore,
+>0
+P(B)
+P (A n B)
+Thus, we obtain:
+0
+<
+<1
+or, 0 <P (A/B) <l.Hence,0 <P (A/B) <1
+P(B)
+Q.E.D.
+THEOREM 2
+If A is an event associated with the sample space S of a random experiment, then
+P{S/A)=P{A/A)=1
+PROUl-
+We have.
+PiSrsA) _P{A)
+P(A)
+"P(A)
+Hence,
+P (S/A) =P (A/A)=l
+P(AnA)
+P(A)
+~T(Ar~~P(A)
+P(S/A) =
+= 1. Also, P (A/A) =
+= 1
+Q.E.D.
+Read
+
+Questions in LaTeX:
+
+1. $P(A \cap B) = P(A)P(B|A)$
+2. $P(A \cap B) = P(B)P(A|B)$
+3. $0 < P(A|B) < 1$
+4. $P(S|A) = P(A|A) = 1$
+
+Extract only the math questions from the following text.
+Output the questions strictly in LaTeX math notation format.
+Do NOT add any explanations or other text.
+
+Text:
+MATHEMATICS-XIl
+30.24
+THEOREM 3
+Let A and 6 be two events associated with a random experiment and S be the sample space.
+If C is an event such that P (C) * 0, then
+p({A u B)/C 1 = P (A/C) + P (B/C) - P {(A n B)/C)
+In particular, if A and B are mutually exclusive events, then
+= P(A/C) + P(B/C)
+/
+P
+{A uB)/C
+PrCXDF
+We have.
+P{(AuB)nC}
+P
+(A uB)/C
+P(C)
+P {{Ar^O^iBr^C)}
+uB)/C
+P
+(A
+P(C)
+P(AnC)+ (BnC)-P{AnC)n(BnC)}
+uB)/C
+P
+(A
+P(C)
+P (A n C) + P (B n C) - P (A n B n C)
+uB)/C
+P
+(A
+P(C)
+P(AnC)
+P(BnC)
+P{AnBnC)
+P
+(A uB)/C
+P(C)
+P(C)
+P(C)
+P{A/C) + P{B/C)-P
+(A nB)/C
+P
+(A uB)/C
+If A and B are mutually exclusive events, then P
+(A nB)/C
+=0
+P
+(A nB)/C)
+=P{A/C) + P{B/C)
+Q.E.D.
+THEOREM 4 ^A iind Bare two events associated with a random experiment, then P{A/B) =1 -P(A/B).
+PROOF
+We know that
+P(S/B) =1
+P
+(A uA)/B
+=1
+[See Theorem 2]
+[●.●A and A are mutually exclusive events]
+Q.E.D.
+P(A/B) + P(A/B)=1
+P(A/B)=1-P(A/B)
+Following examples will illustrate the applications of the above formulae and properties for
+conditional probability.
+ILLUSTRATIVE EXAMPLES
+BASED ON BASIC CONCEPTS (BASIC)
+EXAMPLE 1
+If A and B are two events such that P(A) = 05, P (B) = 0.6 and P (A u B) = 0.8, find
+P(A/B) andP{B/A).
+SOLUTION
+We have, P (A) = 05, P (B) = 0.6 and P (A u B) = 0.8
+We know that
+P (A u B) ^ P (A)+ P{B)-P {An B)
+P(AnB) = P (A) + P (B) - P (A u B) = 05 + 0.6 - 0.8 = 0.3
+Read
+
+Questions in LaTeX:
+
+1. Let $A$ and $B$ be two events associated with a random experiment and $S$ be the sample space. If $C$ is an event such that $P(C) = 0$, then
+\[P\left(\frac{A \cup B}{C}\right) = P\left(\frac{A}{C}\right) + P\left(\frac{B}{C}\right) - P\left(\frac{A \cap B}{C}\right)\]
+In particular, if $A$ and $B$ are mutually exclusive events, then
+\[P\left(\frac{A \cup B}{C}\right) = P\left(\frac{A}{C}\right) + P\left(\frac{B}{C}\right)\]
+
+2. We have
+\[P\left(\frac{A \cap B}{C}\right) = P\left(\frac{A}{C}\right) \cdot P(C) + P\left(\frac{B}{C}\right) \cdot P(C) - P\left(\frac{A \cap B}{C}\right) \cdot P(C)\]
+\[P\left(\frac{A \cup B}{C}\right) = P\left(\frac{A}{C}\right) \cdot P(C) + P\left(\frac{B}{C}\right) \cdot P(C) - P\left(\frac{A \cap B}{C}\right) \cdot P(C)\]
+\[P\left(\frac{A \cup B}{C}\right) = P\left(\frac{A}{C}\right) + P\left(\frac{B}{C}\right) - P\left(\frac{A \cap B}{C}\right)\]
+
+3. If $A$ and $B$ are mutually exclusive events, then
+\[P\left(\frac{A \cap B}{C}\right) = 0\]
+\[P\left(\frac{A \cup B}{C}\right) = P\left(\frac{A}{C}\right) + P\left(\frac{B}{C}\right)\]
+
+4. If $A$ and $B$ are two events such that $P(A) = 0.5$,
+
+Extract only the math questions from the following text.
+Output the questions strictly in LaTeX math notation format.
+Do NOT add any explanations or other text.
+
+Text:
+PROBABILITY
+30.25
+P(AnB)
+0.3
+1
+PjAnB) ^ ^ _ 3
+P{A)
+" 05 " 5
+P{A/B) =
+= j and, P (B/A) =
+P{B)
+0.6
+EXAMPLE 2
+If A and B are two events such that P{A) = 0.3, P{B) = 0.6 and P (B/A) = 0.5, find
+PiA/B)andP(AuB).
+SOLUTION
+We have, P (A) = 0.3, P (B) = 0.6 and P (B/A) = 0.5
+P (A nB)
+0.15 ^ 1
+0.6
+” 4
+P(AnB)
+P(A) P (B/A) = 0.3 x 0.5 = 0.15 and, P (A/B)
+=
+P(B)
+Thus, we obtain: P(A) = 0.3, P(B) = 0.6 and P(AnB)
+=
+0.15
+P(A^B)=P(A) + P(B)-P(AnB) =0.3+0.6-0.15=0.75
+EXAMPLE 3
+IfP (not A) = 07, P (B) = 07 and P^/A) = 0.5, then find P (A/B) and P(A'u B).
+SOLUTION
+We have, P (not A) = 07
+or, P (A) = 07 => 1 - P (A) = 07 => P (A) = 0.3.
+P(AnB)
+P(AnB)
+Now,
+P(B/A)
+=
+=>
+0.5
+=
+P (A r^B)
+= 0.15
+P(A)
+P(AnB)
+0.15
+3
+0.3
+P(A/B)
+=
+P(B)
+0.7
+14
+and,
+EXAMPLE 4
+If A and B are two events associated with a random experiment such thatP (A) =0.8,
+P(B)=0.5,P(B/A) = 0A,find
+(i)P(AnB)
+(h)P(A/B)
+(iii)P(AuB)
+P(A uB) = P(A)^^^ P(B)-P(AnB) = 0.3 + 0.7 -0.15 = 0.85
+SOLUTION
+(i) We have,
+P (B/A) =0.4
+P(BnA)
+P(BnA)
+= 0.4
+V P(B/A) =
+P(A)
+P(A)
+P(AnB) = 0.4 => P(AnB)^ 0.32
+[v P (A) = 0.8 (given)]
+0.8
+P (A n B)
+(ii) We know that: P (A/B) =
+P(B)
+0.32
+P(A/B) =
+= 0.64
+[●.●P(AnB) = 0.32 and P (B) = 05]
+05
+(iii) We know that:
+P (A u B) = P (A) + P (B) - P (A n B)
+P (A u B) = 0.8 + 05 - 0.32 = 0.98
+EXAMPLES
+Afair die is rolled. Consider the events A = {1, 3,5}, B = {2, 3} andC = {2, 3, 4,5}. Fmrf
+[●.●P (A) = 0.8, P (B) = 05 and P (A r. B) = 0.32]
+(i) P (A/B) and P (B/A)
+(ii) P (A/C) and P (C/A)
+(iii) P (A u B/C) and P (A n B/C)
+SOLUTION
+We have, S = {1, 2, 3, 4,5, 6}, A = {1, 3,5}, B = {2, 3} and C = {2, 3, 4, 5}
+n(S) = 6,n(A) = 3,n(B) = 2 and n(C) = 4
+P(A)=|=1 P(B)=^ = i,P(C)=^ = ^,P(AnB)=i, P(AnC)=|
+^
+6
+2
+6
+3
+6
+3
+6
+6
+P(BnC) =- = -,P (A nBnC)=i and P (Aw B)=-=-
+6
+3
+6
+6
+3
+P(A/S) =
+3'
+P(AnB)
+1/6
+1
+P(B nA)
+1/6 _ 1
+P(A)
+“l/2~3
+P (A nC)
+1/3 _ 2
+P(A)
+"1/2" 3
+(i)
+= — and, P (B/A) =
+P(B)
+1/3
+2
+P(AnC)
+1/3
+1
+(ii)
+P(A/C) =
+= - and, P(C/A) =
+P(C)
+2/3
+2
+P
+(A nB)nC
+P(AnBnC) _ 1/6 _1
+2/3 ”4
+(iii)
+P (A n B/C) =
+P(C)
+P(C)
+Read
+
+Questions in LaTeX:
+
+\begin{enumerate}
+\item{P(AnB)}
+\item{P(A/B)}
+\item{P(AuB)}
+\end{enumerate}
+
+Extract only the math questions from the following text.
+Output the questions strictly in LaTeX math notation format.
+Do NOT add any explanations or other text.
+
+Text:
+MATHEMATICS-XII
+30.26
+P(BnC)
+1/3
+1
+P(C)
+“2/3“ 2
+P{AuB/C) = P(A/C) + (B/C)-P(AnB/C) == \ +
+^
+2
+1
+X
+EXAMPLE6
+Three events A, B and C have
+probabilities
+and - respectively. Given
+that
+5
+3
+2
+P {/I nC) = ^andP{B nC) = -^,/mrf the values ofP (C/B)and P {A nC). INCERT EXEMPLAR]
+SOLUTION
+We have,
+P(A)=-,P(B)=-,P(C)=i,P(AnC)=^ and P(BnC)=|
+5
+3
+2
+5
+4
+P(CoB)
+1/4
+3
+P(B)
+“1/3 “4
+P(AnC)=P(AUC)=l- {P(A) + P(C)-P(AnC)} = l-(^| + i-~j =^
+EXAMPLE?
+// P (A)
+^ {B)=^and P (A n B)=^,find P (A/B)and P (B/A).
+P(AnB)
+P(B/C) =
+and.
+4
+1
+P(C/B) =
+and,
+P(A nB)
+and P(B/A)
+=
+SOLUTION
+We know that
+P{A/B)
+=
+P(A)
+P(B)
+Therefore, to find P (A/B) and P (6/A), we need the values of P (A nB), P (A) and P (B). So,
+let us first, compute these probabilities.
+Now,
+P(A nB) = P(A wB)
+= l-P(AuB) = l-{P(A) + P(B)-P(AnB)} =
++
+P{A) = l-P(A) = ^ and P (B)
+P(A/B) =
+3
+8
+1
+= l^P(B) = -
+- and P(B/A)
+=
+4
+8
+PjAnB) _ ^ ^ 3
+P (A
+)
+“ 5/8 " 5
+P (A n B)
+3/8
+1/2
+P(B
+)
+A die is rolled twice and the sum of the numbers appearing on them is observed to be 7. What
+EXAMPLES
+is the conditional probability that the number 2 has appeared at least once?
+SOLUTION
+Consider the following events:
+A = Getting number 2 at least once; B = Getting 7 as the sum of the numbers on two dice.
+We have.
+A = {(2,1), (2, 2), (2, 3), (2, 4), (2,5), (2, 6), (1, 2), (3, 2), (4, 2), (5, 2) (6, 2)}
+B = {(2,5), (5, 2), (6,1), (1,6), (3, 4), (4 3)}
+and.
+When a die is rolled twice, there are 36 elementary events.
+P(B) = A and P(A nB) = ^
+11
+B(A) = 36'
+36
+36
+P{AnB)
+2/36
+_
+1
+P(B)
+6/36 “ 3
+Required probability = P(A/B) =
+So,
+A black and a red die are rolled.
+EXAMPLE 9
+(i)
+Find the conditional probability of obtaining a sum greater than 9, given that the black die resulted
+hi a 5.
+(ii)
+Find the conditional probability of obtaining the sum 8, given that the red die resulted in a number
+less than 4.
+[CBSE 20181
+Read
+
+Questions in LaTeX:
+
+\[
+\begin{array}{l}
+P(B) = \frac{1}{3} \\
+P(C) = \frac{2}{3} \\
+P(A \cap B) = 1 \\
+P(A \cap C) = \frac{1}{3} \\
+P(B \cap C) = \frac{1}{2} \\
+\end{array}
+\]
+
+\[
+\begin{array}{l}
+P(A \cap B) = P(A) - P(A \cap C) \\
+P(A \cap B) = 1 - \frac{1}{3} = \frac{2}{3} \\
+P(A \cap B) = \frac{2}{3} \\
+\end{array}
+\]
+
+\[
+\begin{array}{l}
+P(A \cap B) = P(A) + P(B) - P(A \cap B) \\
+P(A \cap B) = \frac{2}{3} + \frac{1}{3} - \frac{1}{2} = \frac{1}{6} \\
+P(A \cap B) = \frac{1}{6} \\
+\end{array}
+\]
+
+\[
+\begin{array}{l}
+P(A \cap B) = P(A) - P(A \cap C) \\
+P(A \cap B) = \frac{2}{3} - \frac{1}{3} = \frac{1}{3} \\
+P(A \cap B) = \frac{1}{3} \\
+\end{array}
+\]
+
+\[
+\begin{array}{l}
+P(A \cap B) = P(A) + P(B) - P(A \cap B) \\
+P(A \cap B) = \frac{2}{3} + \frac{1}{3} - \frac{1}{2} = \frac{1}{6} \\
+P(A \cap B) = \frac{1}{6} \\
+\end{array}
+\]
+
+\[
+\begin{array}{l}
+P(A \cap B) = P(A) - P(A
+
+Extract only the math questions from the following text.
+Output the questions strictly in LaTeX math notation format.
+Do NOT add any explanations or other text.
+
+Text:
+PROBABILITY
+30.27
+Consider the following events:
+A = Getting a sum greater than 9, B = Getting 5 on black die
+C = Getting 8 as the sum, D = Getting a number less than 4 on red die.
+SOLUTION
+Clearly,
+A = {(4, 6), (6, 4), (5,5), (6,5), (5, 6), (6, 6)}, B = {(5,1), (5, 2), (5, 3), (5, 4), (5,5), (5, 6)}
+C = {(2,6),(6, 2), (4, 4), (3,5), (5, 3)}
+D = {(1,1), (2,1), {3,1), (4,1), (5,1), (6,1), (1, 2), (2, 2), (3, 2), (4, 2), (5, 2), (6, 2),
+(1, 3), (2, 3), (3, 3), {4, 3), (5, 3), {6, 3)}
+Clearly, n{A) = 6, n{B) = 6, «(C) = 5, n{D) = 18, n (A n B) = 2 and h (C n D) = 2.
+and, P(CnD)=—=
+36
+18
+and.
+18
+1
+2
+1
+-,P(AnB)=:~ = —
+-
+36
+18
+36
+2'
+1
+P(AnB) _ 1/18 _ 1
+P(B)
+~J/6~3
+P(CnD)_l/18_l
+P(D)
+“ 1/2 ~9
+(i)
+Required probability =P(A/B) =
+(ii)
+Required probability = P (C/D) =
+BASED ON LOWER ORDER THINKING SKILLS (LOTS)
+EXAMPLE 10
+Two integers are selected at random from integers 1 through 11. If the sum is even,find the
+probability that both the numbers are odd.
+SOLUTION
+Out of integers from 1 to 11, there are 5 even integers and 6 odd integers.
+Consider the following events:
+A = Both the numbers chosen are odd
+, B = The sum of the numbers chosen is even
+Since the sum of two integers is even if either both are even or both are odd.
+6^^2
+6/~-C2
+^C2-t^C2
+P(A) =
+. P(B)
+=
+and P (A r\B)
+=
+PjAnB) _^C2/^^C2 ^
+^C2
+C2+%
++ %
+15 + 10
+5
+11
+11
+11
+C2
+C2
+C2
+15
+3
+Required probability = P (A/B) =
+6
+P(B)
+11 C2
+10% of the bulbs produced in afactory are red colour and 2% are red and defective. If one
+EXAMPLE 11
+bulb is picked at random, determine the probability of its being defective if it is red.
+SOLUTION
+Consider the following events:
+A = The bulb produced is red, B = The bulb produced is defective.
+1
+2
+1
+= —and P{AnB) =—= —
+100
+50
+P(AnB)
+1/50
+1
+[NCERT EXEMPLAR]
+10
+It is given that P(A) = 100
+10
+Required probability = P(B/A) =
+P{A)
+1/20
+5
+EXAMPLE 12
+A couple has 2 children. Find the probability that both are boys, if it is known that (i) one of
+the children is a boy (ii) the older child is a boy.
+SOLUTION
+Let B,- and Gj stand for
+child be a boy and girl respectively. Then the sample
+space can be expressed as S = {Bj B2, B| G2,
+B2, Gj G2}.
+Consider the following events:
+A = Both the children are boys; B = One of the children is a boy; C = The older child is a boy.
+ICBSE 2010,2014]
+Read
+
+Questions in LaTeX:
+
+\begin{enumerate}
+\item{Consider the following events: A = Getting a sum greater than 9, B = Getting 5 on black die. C = Getting 8 as the sum, D = Getting a number less than 4 on red die. Clearly, n{A) = 6, n{B) = 6, «(C) = 5, n{D) = 18, n (A n B) = 2 and h (C n D) = 2. and, P(CnD)=—=
+\end{enumerate}
+
+\begin{enumerate}
+\item{Two integers are selected at random from integers 1 through 11. If the sum is even, find the probability that both the numbers are odd.
+\end{enumerate}
+
+\begin{enumerate}
+\item{Two bulbs are selected at random from a batch of 100 bulbs, 10 of which are defective. If one bulb is found to be defective, find the probability that the other bulb is also defective.
+\end{enumerate}
+
+\begin{enumerate}
+\item{A couple has 2 children. Find the probability that both are boys, if it is known that (i) one of the children is a boy (ii) the older child is a boy.
+\end{enumerate}
+
+\begin{enumerate}
+\item{A couple has 2 children. Find the probability that both are boys, if it is known that (i) one of the children is a boy (ii) the older child is a boy.
+\end{enumerate}
+
+\begin{enumerate}
+\item{A couple has 2 children. Find the probability that both are boys, if it is known that (i) one of the children is a boy (ii) the older child is a boy.
+\end{enumerate}
+
+\begin{enumerate}
+\item{A couple has 2 children. Find the probability that both are boys, if it is known that (i) one of the children is a boy (ii) the older child is a boy.
+\end{enumerate}
+
+\begin{enumerate}
+\item{A couple has 2 children. Find the probability that both are boys, if it is known that (i) one of the children
+
+Extract only the math questions from the following text.
+Output the questions strictly in LaTeX math notation format.
+Do NOT add any explanations or other text.
+
+Text:
+MATHEMATICS-XII
+30.28
+A = {B| 82)/ B = {Bj G2/ Bj B2, Gj B2I and C — {Bj 82, B| G2)
+A nB = {Bj 82} and AnC = {Bj 83}
+Required probability = P{A/B) =
+Then,
+P (A nB)
+_ 1/4 _
+1
+(i)
+3/4
+3
+P{AnC)
+_ 1/4 _
+1
+2/4
+2
+P(B)
+Required probability = P(A/C) =
+(ii)
+P(C)
+Consider a random experiment in which a coin is tossed and if the coin shows head it is
+EXAMPLE 13
+tossed again but if it shows a tail then a die is tossed. If 8 possible outcomes are equally likely, find the
+probability that the die shozos a number greater than 4 if it is knoivn that the first throzv of the coin results
+in a tail.
+[CBSE2014]
+SOLUTION
+The sample space S associated with the given random experiment is
+S = {{H,H), (H,T), (T,1),(7',2),{T,3)(T,4), (T, 5), (T, 6)}.
+Let A be the event that the die shows a number greater than 4 and B be the event that the fiist
+throw of the coin results in a tail. Then,
+A = {(T,5)(T,6)} and B = {(T, 1), (T, 2), (T, 3), (T, 4), (T, 5), (T, 6)}
+P{AnB) _ njAnB) _ 2 ^
+1_
+6 "
+3
+Required probability = P(A/B) =
+n{B)
+P{B)
+EXAMPLE 14
+A coin is tossed twice and the four possible outcomes are assumed to be equally likely. IfA
+is the event, ‘both head and tail have appeared', and B be the event, ‘at most one tail is observed', find
+P (A), P (B), P (A/B) and P (B/A).
+SOLUTION
+Here,S = {HH,HT,TH,rT},A = {HT,rH} and B = {HH,HT,TH}.
+AnB = {HTJH}.
+n{A) ^2^1
+n{S)
+4
+P(AnB)
+1/2
+n (A n B)
+_ 2 _ 1
+n(S)
+4'2
+»(B)
+- and, P (A n B) =
+4
+P(AnB)
+^,P(B) =
+P{A) =
+Now,
+«(S)
+1/2
+- and P(B/A) =
+3
+=
+1.
+P(A/B) =
+1/2
+P{A)
+3/4
+P(B)
+EXAMPLE 15
+A bag contains 3 red and 4 black balls and another bag has 4 red and 2 black balls. One bag
+is selected at random and from the selected bag a ball is draivn. Let A be the event that the first bag is
+selected, B be the event that the second bag is selected and C be the event that the ball drawn is red. Find
+P(A), P(B), P (C/A) and P (C/B).
+1
+1
+SOLUTION
+There are two bags. Therefore, P (A) = - and P (B) = -
+P(C/A) = Probability of drawing a red ball when first is selected
+3
+= Probability of drawing a red ball from first bag
+= —
+4
+P (C/B) = Probability of drawing a red ball from second bag = —
+Now,
+2
+and.
+3
+EXAMPLE 16
+A coin is tossed, then a die is thrown. Find the probability of obtaining a ‘6‘given that head
+came up.
+SOLUTION
+The sample space S associated to the given random experiment is given by
+S = {(H, 1), (H, 2), (H, 3), (H, 4), (H, 5), (H, 6), (T, 1), (T, 2), (T, 3), (T, 4), (T, 5), (T, 6)}
+Consider the events: A = Getting head on the coin.
+Clearly, A = {(H, 1), (H, 2), (H, 3), (H, 4), (H, 5), (H, 6)}and B = {{H, 6), (T, 6)}
+P (A n B)
+1/12 ^ 1
+6/12
+6
+B = Getting 6 on the dice.
+Required probability = P(B/A) =
+P{A)
+Read
+
+Questions in LaTeX:
+
+\begin{enumerate}
+\item A = \{B \mid 82 \} \quad B = \{B_j G_2, B_j B_2, G_j B_2, C \setminus \{B_j 82, B \mid G_2\} \} \quad A \cap B = \{B_j 82\} \quad A \cap C = \{B_j 83\} \quad P(A \cap B) = \frac{1}{4} \quad P(A \cap C) = \frac{1}{4} \quad P(B) = 1 \quad P(A \mid B) = \frac{P(A \cap B)}{P(B)} = \frac{1/4}{1/4} = 1 \quad P(A \mid C) = \frac{P(A \cap C)}{P(C)} = \frac{1/4}{1/4} = 1
+\item P(A \cap B) = \frac{1}{4} \quad P(A \cap C) = \frac{1}{4} \quad P(B) = 1 \quad P(A \mid B) = \frac{P(A \cap B)}{P(B)} = \frac{1/4}{1/4} = 1 \quad P(A \mid C) = \frac{P(A \cap C)}{P(C)} = \frac{1/4}{1/4} = 1
+\item P(A \cap B) = \frac{2}{4} \quad P(A \cap C) = \frac{1}{4} \quad P(B) = \frac{1}{4} \quad P(A \mid B) = \frac{P(A \cap B)}{P(B)} = \frac{2/4}{1/4} = 2 \quad P(A \mid C) = \frac{P(A \cap C)}{P(C)} = \frac{1/4}{1/4} = 1
+\end{enumerate}
+
+EXAMPLE 13:
+
+\begin{enumerate}
+\item The sample space S associated with the given random experiment is S = \{(H,H), (
+
+Extract only the math questions from the following text.
+Output the questions strictly in LaTeX math notation format.
+Do NOT add any explanations or other text.
+
+Text:
+30.29
+PROBABILITY
+A committee of 4 students is selected at random from a group consisting of 8 bops and 4
+EXAMPLE 17
+girls. Given that there is at least one girl in the committee, calculate the probabilitp that there are exactly 2
+girls in the committee.
+SOLUTION
+Consider the following events:
+A - There is at least one girl on the committee, B = There are exactly 2 girls on the committee.
+P{AnB)
+(NCERT EXEMPLAR)
+We have to find P{B/A).'We know that: P{B/A) =
+P(A)
+Now,
+70 _85
+495 ” 99
+P(A)=1-?(A)=1-
+= 1-
+12 C4
+^C2X ^C4 _6x28
+56
+P{A n 6) = P( Selecting 2 girls and 2 boys out 8 boys and 4 girls =
+12
+495
+165
+C4
+P(AnB)
+56
+. 85 _ 168
+P{A)
+“T^
+■99 “425
+P{B/A) =
+Two coins are tossed. What is the probability of coming up two heads if it is knozvn that at
+EXAMPLE 18
+least one head comes up.
+Consider the events: A = Getting at least one head, B = Getting two heads.
+SOLUTION
+Clearly, A = {HT, TH, HH}, B = {HH} and so A n B = |H H)
+P (A) = ~,P {An B) =
+1
+[v
+S = {HH,HT,TH,TT\]
+4
+P{AnB)
+_
+_
+l_
+P(A)
+“ 's/a “ 3
+Required probability = P(B/A) =
+An instructor has a test bank consisting of 300 easy True/False questions, 200 difficult
+EXAMPLE 19
+True/False questions, 500 easy multiple choice questions (MCQ) and 400 difficult midtiple choice
+questions. If a questions is selected at random from the test bank, zohat is the probability that it will be an
+easy question given that it is a multiple choice question.
+SOLUTION
+Consider the following events;
+£ = The question selected is an easy question,
+D = The question selected is a difficult question
+T = The question selected is a True/False question,
+M = The question selected is a multiple choice question.
+Total number of questions = 300 + 200 + 500 + 400 =1400
+500 _ 5
+1400 ~14'
+600 = ~,P(T) =
+800
+|,P(D) =
+P(E) =
+1400
+7
+'
+- and P(EnM) =
+1400
+7
+'
+500 _ 5
+1400 “ 14
+P(EnM)
+_ 5/14 _ 5
+P(M)
+“ 9/14 “9
+900
+P(M) = 1400
+14
+Required probability = P (£/M) =
+EXAMPLE 20
+A die is thrown three times. Events A and B are defined as follows:
+A:4 on the third throw, B:6 on the first and 5 on the second throzo.
+Find the probability of A given timt B has already occurred.
+SOLUTION
+There
+are 6x6x6= 216
+elementary
+events
+associated
+with
+the
+random
+experiment.
+Read
+
+Questions in LaTeX:
+
+\[
+\text{What is the probability that there are exactly 2 girls in the committee given that there is at least one girl in the committee?}
+\]
+
+\[
+\text{What is the probability of coming up two heads if it is known that at least one head comes up when two coins are tossed?}
+\]
+
+\[
+\text{What is the probability that a question selected at random from the test bank will be an easy question given that it is a multiple choice question?}
+\]
+
+\[
+\text{What is the probability of event A given that event B has already occurred when a die is thrown three times?}
+\]
+
+Extract only the math questions from the following text.
+Output the questions strictly in LaTeX math notation format.
+Do NOT add any explanations or other text.
+
+Text:
+30.30
+MATHEMATICS-XII
+Clearly,
+A = {(1,1, 4), (1, 2, 4), (1, 3, 4), (1, 4, 4), (1,5, 4), (1, 6, 4),(2,1, 4), (2, 2, 4), (2, 3, 4),
+(2, 4, 4), (2,5, 4), (2, 6, 4),(3,1, 4), (3, 2, 4), (3, 3, 4), (3, 4, 4), (3,5, 4), (3, 6, 4)
+(4,1, 4), (4, 2, 4), (4, 3, 4), (4, 4, 4), (4, 5, 4), (4, 6, 4), (5,1, 4), (5, 2, 4), (5, 3, 4),
+(5, 4, 4), (5,5, 4), (5, 6, 4), (6,1, 4), (6, 2, 4), (6, 3, 4), (6, 4, 4), (6,5, 4), (6, 6, 4)}
+B = {(6,5,1), (6,5, 2), (6,5, 3), (6,5, 4), (6,5,5), (6,5, 6)1
+AnB = {(6,5, 4)}.
+and.
+We observe that n (A) = 36, n(B)=6 and n(A n B) =1
+P(AnB)=— and P(B)= —
+216
+216
+P(AnB)
+_ 1/216 _ 1
+P(B)
+" 6/216 ~6
+Required probability =
+Three dice are thrown at the same time. Find the probability of getting three two's if it is
+[NCERT EXEMPLAR]
+EXAMPLE 21
+known that the sum of the numbers on the dice was a six.
+Associated
+to
+the random
+experiment
+of
+throwing
+three
+dice
+there
+are
+SOLUTION
+6x6x6= 216 elementary events.
+Consider the following events: A =Sum of the numbers on the dice is six, B =Getting three twos
+We have to find P(B/A). We observe that
+A ={(1, 2, 3), (1, 3, 2), (2, 3,1), (2,1, 3), (3,1, 2), (3, 2,1), (1,1, 4), (1, 4,1), (4,1,1), (2, 2, 2)1
+andB = {(2, 2, 2))
+10
+P(B) =—andP(AnB)= —
+P(A) = 216'
+216
+216
+PjAr^B) _ 1/216 _ 1
+P(A)
+10/216 "io
+Hence,
+Required probability = P(B/A) =
+In a hostel 60% of the students read Hindi newspaper, 40% read English newspaper and
+EXAMPLE 22
+20 % read both Hindi and English newspapers. A student is selected at random.
+(i)
+Find the probability that she reads neither Hindi nor English news papers.
+(ii)
+If she reads Hindi newspaper, find the probability that she reads English newspaper.
+(iii)
+If she reads English newspaper, find the probability that she reads Hindi neiuspaper.
+SOLUTION
+Consider the following events:
+H = Student reads Hindi newspaper, £ = Student reads English newspaper.
+20
+1
+60
+40
+- and P(Hn£) =
+We find that: P (H) = 100
+5
+'
+100
+5
+Required probability = P(Hn£)= P {H <jE)= l-P(HuE)
+100
+5
+(i)
+= l-{P(H) + P(£)-P(HnE)} = 1-jl + l-l
+[a
+D
+0
+4
+1
+= 1 --
+5
+5
+P(Hn£)
+1/5
+1
+P (H)
+“ ^ “ 3
+P(Hn£) _l/5 _1
+P(£)
+“X^"2
+EXAMPLE 23
+electronic assembly consists of two subsystems say A and B. From previous testing
+procedures, thefolloioing probabilities are assumed to be known.
+P (A fails) = 0.2, P (B fails alone) = 0.15, P (A and Bfail) = 0.15.
+Evaluate the following probabilities:
+(i)
+P(Afails/B has failed)
+(ii) P (A fails alone)
+(ii)
+Required probability
+= P (E/H) =
+(iii)
+Required probability = P (H/£) =
+Read
+
+Questions in LaTeX:
+
+\begin{enumerate}
+\item Extract only the math questions from the following text.
+\item Output the questions strictly in LaTeX math notation format.
+\end{enumerate}
+
+Answers:
+
+\begin{enumerate}
+\item
+\begin{align*}
+P(A \cap B) &= \frac{1}{216}, \\
+P(A) &= \frac{216}{216}, \\
+P(B) &= \frac{6}{216}, \\
+P(B|A) &= \frac{1}{216}.
+\end{align*}
+\item
+\begin{align*}
+P(B|A) &= \frac{P(B \cap A)}{P(A)}, \\
+P(B|A) &= \frac{1/216}{216/216}, \\
+P(B|A) &= \frac{1}{216}.
+\end{align*}
+\item
+\begin{align*}
+P(H|E) &= \frac{P(H \cap E)}{P(E)}, \\
+P(H|E) &= \frac{3/216}{6/216}, \\
+P(H|E) &= \frac{1}{2}.
+\end{align*}
+\item
+\begin{align*}
+P(E|H) &= \frac{P(E \cap H)}{P(H)}, \\
+P(E|H) &= \frac{1/216}{10/216}, \\
+P(E|H) &= \frac{1}{10}.
+\end{align*}
+\end{enumerate}
+
+Extract only the math questions from the following text.
+Output the questions strictly in LaTeX math notation format.
+Do NOT add any explanations or other text.
+
+Text:
+30.31
+PROBABILITY
+SOLUTION
+Consider the following events: E=A fails, F = B fails. It is given that
+P {A fails) = 0.2, P {A and B fails) = Ol^and, P (B fails alone) = 0.15
+P(£) = 0.2, P(£nP) = 0.15 and P(£ nP) = 0.15
+Now,
+P (£ n F) = 0.15
+P (F) - P (£ o F) = 0.15
+[v P(£nF)= 0.15]
+P (F) = P (£ n F) + 0.15 = 0.15 + 0.15 = 0.30
+P (£ n F)
+0.15
+1
+P (A fails/B has failed) = P(£/F) =
+(i)
+0.30
+2
+P (/I fails alone) = P (£ nF) = P {£)-P (£ n F) =0.2 -0.15 = 0.05
+P(F)
+(ii)
+BASED ON HIGHER ORDER THINKING SKILLS (HOTS)
+Three distinguishable balls are distributed in three cells. Find the conditional probabilih/
+that all the three occupy the same cell, given that at least txvo ofthexn are in the same cell.
+SOLUTION
+Since each ball can be placed in a cell in three ways. Therefore, three distinct balls
+can be placed in three cells in 3 x 3 x 3 = 27 ways.
+Consider the following events:
+£ = All balls are in the same cell, F = At least two balls are in the same cell.
+EXAMPLE 24
+All balls can be placed in the same cell in three ways.
+27
+Now, P (F) = P (At least two balls are in the same cell) =1 - P (Balls are placed in distinct cells)
+^
+P(F)=1-
+3!
+21
+27
+27
+Clearly, £cF=>£nF=£=> P(£oF)=P(£)= —
+Required probability = P (£/F) =
+27
+P(£nF) _ 3/27 _1
+P(F)
+"21/27 "7
+Consider the experiment of tossing a coin. If the coin shows head toss it again but if it
+EXAMPLE 25
+shows tail then throw a die. Find the conditional probability of the event 'the die shows a number greater
+than 4, given that 'there is at least one tail'.
+[NCERT]
+The outcomes of the experiment can be represented in the following tree diagram.
+SOLUTION
+(HH)
+Head(
+(RT)
+(T5)
+(T,6)
+Fig. 30.3 Outcomes of the random experiment
+The sample space S of the experiment is given as
+S = {(H, H), (H, 7), (T, 1), (T, 2), (T, 3), (T, 4), (T, 5), (T, 6)}
+The probabilities of these elementary events are:
+P{(H,H)}=ixi=i,P{(H,T)} = lxl=i,Pi(T,l)} = lxi = L.
+1
+1
+1
+1
+1
+1
+-
+, P {(T, 3)} =- X i = — , P {(T, 4} = - X - =12,
+6
+12
+2
+6
+12
+2
+6
+1
+1
+1
+P{(T, 2}=-
+Read
+
+Questions in LaTeX:
+
+1. $P(A \text{ fails}) = 0.2$
+2. $P(A \text{ and } B \text{ fails}) = 0.15$
+3. $P(B \text{ fails alone}) = 0.15$
+4. $P(F) = P(A \text{ fails} \text{ and } B \text{ fails}) + P(B \text{ fails alone}) = 0.15 + 0.15 = 0.30$
+5. $P(A \text{ fails} \text{ and } B \text{ fails}) = P(F) - P(A \text{ fails} \text{ and } B \text{ fails alone}) = 0.30 - 0.15 = 0.15$
+6. $P(A \text{ fails alone}) = P(A \text{ fails} \text{ and } B \text{ fails}) - P(A \text{ fails} \text{ and } B \text{ fails alone}) = 0.15 - 0.15 = 0.05$
+7. $P(F) = P(A \text{ fails} \text{ and } B \text{ fails}) + P(B \text{ fails alone}) = 0.15 + 0.15 = 0.30$
+8. $P(A \text{ fails} \text{ and } B \text{ fails alone}) = P(A \text{ fails}) - P(F) = 0.2 - 0.30 = -0.10$
+9. $P(F) = P(A \text{ fails} \text{ and } B \text{ fails}) + P(B \text{ fails alone}) = 0.15 + 0.15 = 0.30$
+10. $P(A \text{ fails} \text{ and } B \text{ fails alone}) = P(A \text{ fails}) - P(F) = 0.2 - 0.30 = -0.10$
+11. $P(F) = P(A \text{ fails} \text{ and }
+
+Extract only the math questions from the following text.
+Output the questions strictly in LaTeX math notation format.
+Do NOT add any explanations or other text.
+
+Text:
+30.32
+MATHEMATtCS-Xli
+P{(T,5)}=-xi=J-and,P{(r,6)} = -xl= —
+2
+6
+12
+2
+6
+12
+Consider the following events:
+A = The die shows a number greater than 4, B = There is at least one tail.
+Clearly, A = {(T, 5), (T, 6)}, B = {(H, T), (T, 1), (T, 2), (T, 3), (T, 4), (T, 5), (T, 6)}
+and,
+AnB = {(T,5)(T,6)}
+P (B) = P {(H, T)} 4- P {T, 1)} + P {(T, 2)} + P {(T, 3)} + P {(T, 4)} + P {(T, 5)} + P {(T, 6)}
+1
+1
+1
+1
+1
+1
+1
+3
+4
+12
+12
+12
+12
+12
+12
+4
+P (A n B) = F {(T, 5)} + P {(T, 6)} =:! +:! =
+12
+12
+o
+1
+[See Fig. 30.4]
+1
+and.
+1/4
+(H,H)
+Head (H)
+(H,T)
+(Tl)
+(Z2)
+(T,3)
+(T,4)
+(Z5)
+(T,6)
+Fig, 30,4 Computation of probabilities of the outcomes of the experiement
+P(AnB) ^ 1/6 _ 4 _2
+P(B)
+3/4
+18
+9
+REMARK
+Here, the elementary events are not equally likely. So, we cannot say that
+P(B)=-,P(AnB)=-andso P(A/B)=^-^^^-^=— = -
+8
+^
+^8
+P(B)
+7/B
+7
+EXAMPLE 26
+Consider the experiment of throwing a die, if a multiple of 3 comes up throw the die again
+and if any other number comes toss a coin. Find the conditional probability of the event 'the coin shows a
+tail', given that 'at least one die shows a 2'.
+SOLUTION
+The sample space of the experiment is given by
+S = {(3,1), (3, 2) {3, 3), (3, 4),(3,5),(3,6),(6,1),(6, 2), (6, 3), (6, 4), {6,5), (6, 6)
+(1. H), (1, T), (2, H), (2, T), (4, H), (4, T), (5, H), (5, T)}
+The probabilities of the elementary evente are:
+P {(3,l)} =-xi=—,P {(3,2)} = -xi=—,P{(3, 3)}=lxi= ^
+6
+6
+36
+6
+6
+36
+'
+r 36'
+r ¥'"
+r 36'
+P{(6,4))=ixi=^,P((6,5)} = lxi = ^,P{(6,6)}=lxi= ^
+D
+D
+ao
+o
+6
+Jo
+P {(l,H)} = -xi=—,P{(l,T)} = ~xi = —,P {(2,H)} =ix- =
+6
+2
+12
+^
+6
+2
+12
+^
+6
+2
+12
+1
+1
+1
+1
+1
+1
+1
+1
+1
+P{(2,T)} = -x- = —,pp, H)} = ixi=—,P{(4,T)}=-xi=-
+6
+2
+12
+6
+2
+12
+^
+6
+2
+Required probability =P(2l/B) =
+1
+6
+6
+36'
+1
+1
+1
+6
+6
+36'
+1
+1
+2
+12
+'
+Read
+
+Questions in LaTeX:
+
+1. $A = \{(T,5), (T,6)\}$
+2. $B = \{(H,T), (T,1), (T,2), (T,3), (T,4), (T,5), (T,6)\}$
+3. $A \cap B = \{(T,5), (T,6)\}$
+4. $P(B) = \frac{1}{4} + \frac{1}{6} + \frac{1}{6} + \frac{1}{6} + \frac{1}{6} + \frac{1}{6} + \frac{1}{6} = \frac{7}{6}$
+5. $P(A \cap B) = \frac{1}{6} + \frac{1}{6} = \frac{2}{6}$
+6. $P(A|B) = \frac{P(A \cap B)}{P(B)} = \frac{\frac{2}{6}}{\frac{7}{6}} = \frac{2}{7}$
+
+7. $S = \{(3,1), (3,2), (3,3), (3,4), (3,5), (3,6), (6,1), (6,2), (6,3), (6,4), (6,5), (6,6)\}$
+8. $P(A) = \frac{1}{6} + \frac{1}{6} = \frac{1}{3}$
+9. $P(B) = \frac{1}{6} + \frac{1}{6} + \frac{1}{6} + \frac{1}{6} + \frac{1}{6} + \frac{1}{6} = \frac{1}{6}$
+10. $P(A \cap B) = \frac{1}{6} + \frac{1}{6} = \frac{1}{3}$
+11. $P(A|B) = \frac{P(A \cap B)}{P(B)} = \frac{\frac{1}{3}}{\frac{1}{6}} = \frac{2}{3}$
+
+12. $S = \{(3,1), (3,2), (3,
+
+Extract only the math questions from the following text.
+Output the questions strictly in LaTeX math notation format.
+Do NOT add any explanations or other text.
+
+Text:
+30.33
+PROBABILITY
+P {(5, H)} = -xi=—,P {(5,T)}=-x- =
+”
+6
+2
+12
+6
+1
+1
+2
+12
+Clearly, the elementary events are not equally likely.
+Cor\sider the following events;
+A = The coin shows a tail, B = At least one die shows a 2.
+Clearly,
+A = {(l,T),(2,D,(4,D,(5,r)},B = {(3,2),(6,2),(2,H),(2,T)} and, AnB = {(Z,T)}
+P(B)=P{{3, 2)}+P{{6,2)} +
+P(AnB)=P {(2,T)} = — = —
+V
+y
+12
+12
+J_
+J_
+J_
+J_^2
+36
+36
+12
+12 " 9
+and.
+1
+P (A n B) _ 12 _ 9
+3
+2
+24
+8
+Hence, Required probability =P(A/B) =
+4
+REMARK
+As the elementary events are not equally likely. Therefore, we cannot say thatP (B) =
+P(AnB)= — andsoP{A/B) = ^^^‘^^^ =1^ = 1.
+^
+^20
+^
+P (B)
+4/20
+4
+P(B)
+9
+EXERCISE 30.3
+BASIC
+P (B) =— and P (A n B) =^ find P (A/B).
+13
+13
+If A and B are events such that P (A) = 0.6, P (B) = 0.3 and P {A n B) = 0.2, find P (A/B) and
+P{B/A).
+If A and B are two events such that P (A n B) =0.32 and P (B) = 05, find P (A/B).
+If P (A) = 0.4, P (B) = 0.8, P (B/A) = 0.6. Find P (A/B) and P (A u B).
+If A and B are two events such that
+(i) P (A) =1/3, P (B) =1/4 and P (A u B) =5/12, find P (A/B) and P (B/A).
+(ii) P (A) =
+^ (®) =
+2nd P (A u B) =^, find P (A n B), P (A/B), P (B/A)
+(iii) P (A) =4.(B) =
+andP (A n B) =— , find P (A/B).
+13
+IfP(A)=-
+1.
+13'
+2.
+3.
+4.
+5.
+13'
+13
+1
+1
+1
+(iv)
+P(A) =-, P(B) = - andP (A nB) = -, find P(A/B), P(B/A), P(A/B) and P(A/B).
+[NCERT EXEMPLAR]
+If A and B are two events such that 2 P (A) = P (B) =— and P (A/ B) = ^, find P (A u B).
+13
+3
+If P (A) =^ , P (B) =^ and P (A u B) =
+find
+6.
+7.
+11
+11
+(iii) P(B/A)
+(ii) P(A/B)
+(i)P(AoB)
+A coin is tossed three times. Find P (A/B) in each of the following;
+8.
+(i) A = Heads on third toss, B = Heads on first two tosses
+(ii) A = At least two heads, B = At most two heads
+(iii) A = At most two tails, B = At least one tail.
+Two coins are tossed once. Find P (A/B) in each of the following:
+(i) A = Tail appears on one coin, B = One coin shows head,
+(ii) A = No tail appears, B = No head appears.
+9.
+Read
+
+Questions in LaTeX:
+
+\begin{align*}
+P(\text{H}) &= \frac{1}{2}, \\
+P(\text{T}) &= \frac{1}{2}, \\
+P(\text{H}) &= \frac{1}{2}, \\
+P(\text{T}) &= \frac{1}{2}, \\
+P(\text{H}) &= \frac{1}{2}, \\
+P(\text{T}) &= \frac{1}{2}, \\
+P(\text{H}) &= \frac{1}{2}, \\
+P(\text{T}) &= \frac{1}{2}, \\
+P(\text{H}) &= \frac{1}{2}, \\
+P(\text{T}) &= \frac{1}{2}.
+\end{align*}
+
+\begin{align*}
+P(A) &= 0.6, \\
+P(B) &= 0.3, \\
+P(A \cap B) &= 0.2.
+\end{align*}
+
+\begin{align*}
+P(A \cap B) &= 0.32, \\
+P(B) &= 0.5.
+\end{align*}
+
+\begin{align*}
+P(A) &= 0.4, \\
+P(B) &= 0.8, \\
+P(B|A) &= 0.6.
+\end{align*}
+
+\begin{align*}
+P(A) &= \frac{1}{3}, \\
+P(B) &= \frac{1}{4}, \\
+P(A \cup B) &= \frac{5}{12}.
+\end{align*}
+
+\begin{align*}
+P(A) &= 0.4, \\
+P(B) &= 0.8, \\
+P(A \cap B) &= 0.2.
+\end{align*}
+
+\begin{align*}
+P(A) &= 0.5, \\
+P(B) &= 0.5, \\
+P(A \cap B) &= 0.
+\end{align*}
+
+\begin{align*}
+P(A) &= 0.4, \\
+P(B) &= 0.6, \\
+P(A \cap B) &=
+
+Extract only the math questions from the following text.
+Output the questions strictly in LaTeX math notation format.
+Do NOT add any explanations or other text.
+
+Text:
+30.34
+MATHEMATICS-XII
+A die is thrown three times. Find P (A/B) and P (B/A), if
+A = 4 appears on the third toss, B = 6 and 5 appear respectively on first two tosses.
+Mother, father and son line up at random for a family picture. If A and B are two evente
+given by A = Son on one end, B = Father in the middle, find P (A/B) and P (B/A).
+BASED ON LOTS
+10.
+11.
+A dice is thrown twice and the sum of the numbers appearing is observed t'- be 6. What is
+the conditional probability that the number 4 has appeared at least once?
+Two dice are thrown. Find the probability' that the numbers appeared has the sum 8, if it is
+known that the second die always exhibits 4.
+A pair of dice is thrown. Find the probability of getting 7 as the sum, if it is known that the
+second die always exhibits an odd number.
+A pair of dice is thrown. Find the probability of getting 7 as the sum if it is known that the
+second die always exhibits a prime number.
+A die is rolled. If the outcome is an odd number, what is the probability that it is prime?
+A pair of dice is thrown. Find the probability of getting the sum 8 or more, if 4 appears on
+the first die.
+Find the probability that the sum of the numbers showing on two dice is 8, given that at
+least one die does not show five.
+12.
+13.
+14.
+15.
+16.
+17.
+18.
+Two numbers are selected at random from integers 1 through 9. If the sum is even, find the
+probability that both the numbers are odd.
+A die is thrown twice and the sum of the numbers appearing is observed to be 8. What is the
+conditional probability that the number 5 has appeared at least once?
+Two dice are thrown and it is known that the first die shows a 6. Find the probability that
+the sum of the numbers showing on two dice is 7.
+A pair of dice is thrown. Let £ be the event that the sum is greater than or equal to 10 and F
+be the event "5 appears on the first-die”. Find P (£/F).If F is the event ”5 appears on at least
+one die”, find P (£/f).
+19.
+20.
+[CBSE2003]
+21.
+22.
+The probability that a student selected at random from a class will pass in Mathematics is
+4/5, and the probability that he/she passes in Mathematics and Computer Science is 1/2.
+What is the probability that he/she will pass in Computer Science if it is known that he/she
+has passed in Mathematics?
+The probability that a certain person will buy a shirt is 0.2, the probability that he will buy a
+trouser is 0.3, and the probability that he will buy a shirt given that he buys a trouser is 0.4.
+Find the probability that he will buy both a shirt and a trouser. Find also the probability tliat
+he will buy a trouser given that he buys a shirt.
+In a school there are 1000 students, out of which 430 are girls. It is known that out of 430,
+10% of the girls study in class XII. What is the probability that a student chosen randomly
+studies in class XII given that the chosen student is a girl?
+Ten cards numbered 1 through 10 are placed in a box, mixed up thoroughly and then one
+card is drawn randomly. If it is known that the number on the drawn card is more than 3,
+what is the probability that it is an even number?
+Assume that each born child is equally likely to be a boy or a girl. If a family has two
+children, what is the constitutional probability that both are girls? Given that
+(i) the youngest is a girl
+23.
+24.
+25.
+26.
+27.
+(ii) at least one is girl.
+(CBSE 20141
+ANSWERS
+4
+2
+1
+3.
+0.64
+(iii) I
+(iv)
+4.
+0.3,0.96
+1.
+^
+3 ' 3
+4
+4
+2
+2
+1
+3
+115
+4'2'4'8
+11
+5.
+(i)
+(ii) -T
+2-6
+3'2
+n
+' 5
+' 3
+Read
+
+Questions in LaTeX:
+
+\begin{enumerate}
+\item P(A) = \frac{1}{6}
+\item P(B) = \frac{1}{6}
+\item P(A|B) = \frac{1}{6}
+\item P(B|A) = \frac{1}{6}
+\end{enumerate}
+
+\begin{enumerate}
+\item P(A) = \frac{1}{3}
+\item P(B) = \frac{1}{3}
+\item P(A|B) = \frac{1}{3}
+\item P(B|A) = \frac{1}{3}
+\end{enumerate}
+
+\begin{enumerate}
+\item P(A) = \frac{1}{6}
+\item P(B) = \frac{1}{6}
+\item P(A|B) = \frac{1}{6}
+\item P(B|A) = \frac{1}{6}
+\end{enumerate}
+
+\begin{enumerate}
+\item P(A) = \frac{1}{6}
+\item P(B) = \frac{1}{6}
+\item P(A|B) = \frac{1}{6}
+\item P(B|A) = \frac{1}{6}
+\end{enumerate}
+
+\begin{enumerate}
+\item P(A) = \frac{1}{6}
+\item P(B) = \frac{1}{6}
+\item P(A|B) = \frac{1}{6}
+\item P(B|A) = \frac{1}{6}
+\end{enumerate}
+
+\begin{enumerate}
+\item P(A) = \frac{1}{6}
+\item P(B) = \frac{1}{6}
+\item P(A|B) = \frac{1}{6}
+\item P(B|A) = \frac{1}{6}
+\end{enumerate}
+
+\begin{enumerate}
+\item P(A) = \frac{1}{6}
+\item P(B) = \frac{1}{6}
+\item P(A|B) = \frac{
+
+Extract only the math questions from the following text.
+Output the questions strictly in LaTeX math notation format.
+Do NOT add any explanations or other text.
+
+Text:
+30.35
+PROBABILITY
+1
+J_
+6' 36
+8. (i) ^ (ii) I (iii) |
+1
+5
+1
+25. —
+(ii) I (iii) I
+2
+12. T
+..
+4
+9.
+(i)
+1
+(ii)
+0
+7.
+(i)
+10. T
+11
+2
+1
+1
+1
+11. 1^2
+1
+17. T
+16. -
+14. T
+15. T
+6
+3
+6
+5
+1
+_3
+3'11
+2
+1
+3
+22. -
+(iii) I
+20.
+r
+18.
+5
+25
+2
+1
+4
+5
+27.
+(i) -
+HINTS TO SELECTED PROBLEMS
+24. 0.12, 0.6
+26. -
+23.
+10
+7
+8
+6.
+P{AnB)=P{B)P(A/B)=^x^=^
+P{AuB) = P{A) + P{B)-P{AnB)=^ + ^-^ =^
+26
+13
+13
+26
+7.
+(i)
+P(AnB)=P(A) + P(8)-P(^uB)=A + A_L=A
+(ii)
+P{A/B) = P{Ar>B)
+4/11
+_ 4
+5/11
+5
+P(AnB) _
+4/11
+_ 2
+6/11
+" 3
+P(B)
+P{B/A) =
+(iii)
+P{A)
+We have,
+A = {HHH, HTH, THH, TTH}; B = {HHH, HHT}
+p{a/b)A
+We have,
+A = {HHH, HTH, THH, HHT], B = (TTT, TTH, HTT, THT, HHT, THH, HTH]
+P{A/B)=y
+A = {HHH, HTH, THH, HHT. THT, HTT. TTH}
+B = (THH, HTH, HHT, TTH, THT, HTT, TTT}
+P{A/B)=^
+8.
+(i)
+(ii)
+(iii)
+We have, A = {TH, HT}, B = {HT, TH}
+P{A/B)=\
+We have,
+= [HH}. B = (TT}
+P{A/B)=0
+9.
+(i)
+(ii)
+We have,
+^ = {(1,1, 4), (1, 2, 4), (1, 3, 4), (1, 4, 4), (1,5, 4), (1, 6, 4),(2,1, 4), (2, 2, 4), (2, 3, 4),
+(2, 4, 4), (2,5, 4), (2, 6, 4),(3,1, 4), (3, 2, 4), (3, 3, 4), (3, 4, 4), (3,5, 4), (3, 6, 4),
+(4,1, 4), (4, 2, 4), (4, 3, 4), (4, 4, 4), (4,5, 4), (4, 6, 4), (5,1, 4), (5, 2, 4), (5, 3, 4),
+(5, 4, 4), (5,5, 4), (5, 6, 4), (6,1, 4), (6, 2, 4), (6, 3, 4), (6, 4, 4), (6,5, 4), (6,6,4)}
+6 = {(6,5,1), (6,5, 2), (6,5, 3), (6,5, 4), (6,5,5), (6,5, 6)}
+We observe that n (/4) = 36, n (B) = 6 and
+(A n B) = 1
+P{AnB) = —,P(A)=—= - and P(B)= —
+^
+216
+216
+6
+216
+= ^,P(B/A) =
+6
+10.
+1
+36
+P{AnB)
+1/216
+1
+P(A)
+“ 1/36 ”6
+P{AnB)
+1/36
+1
+Hence, P(A/B) =
+P(B)
+1/6
+12
+The sanaple space S is given by S = {MPS, MSP, FSM, FMS, SMF, SFM}
+Clearly, A = {MFS, FMS SMF, SFM}, B = {MPS, SPM} and so A n B = {MPS, SPM)
+P(AnB) _ 2/6 _1
+4/6 ~2
+P{AnB)
+2/6
+= 1 and,
+P(B/A) =
+P(A/B) =
+P(A)
+P (B)
+2/6
+Read
+
+Questions in LaTeX:
+
+\begin{equation}
+\begin{aligned}
+& \text{30.35} \\
+& \text{PROBABILITY} \\
+& \text{1} \\
+& \text{J_} \\
+& \text{6' 36} \\
+& \text{(i)} \\
+& \text{(ii)} \\
+& \text{(iii)} \\
+& \text{1} \\
+& \text{5} \\
+& \text{1} \\
+& \text{2} \\
+& \text{25. —} \\
+& \text{(ii)} \\
+& \text{(iii)} \\
+& \text{2} \\
+& \text{12.} \\
+& \text{..} \\
+& \text{4} \\
+& \text{9.} \\
+& \text{(i)} \\
+& \text{1} \\
+& \text{(ii)} \\
+& \text{0} \\
+& \text{7.} \\
+& \text{1} \\
+& \text{11.} \\
+& \text{1} \\
+& \text{1} \\
+& \text{1} \\
+& \text{17.} \\
+& \text{1} \\
+& \text{18.} \\
+& \text{5} \\
+& \text{25} \\
+& \text{2} \\
+& \text{1} \\
+& \text{4} \\
+& \text{5} \\
+& \text{2} \\
+& \text{22.} \\
+& \text{0.12, 0.6} \\
+& \text{24.} \\
+& \text{0.12, 0.6} \\
+& \text{26.} \\
+& \text{-} \\
+& \text{23.} \\
+& \text{10} \\
+& \text{7} \\
+& \text{8} \\
+& \text{6.} \\
+& \text{HINTS TO SELECTED PROBLEMS} \\
+& \text{24.} \\
+& \text{26.} \\
+& \text{20.} \\
+& \text{1
+

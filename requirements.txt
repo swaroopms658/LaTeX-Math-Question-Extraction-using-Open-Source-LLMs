@@ -1,0 +1,10 @@
+PyMuPDF
+pdfplumber
+pytesseract
+Pillow
+sentence-transformers
+faiss-cpu
+transformers
+torch
+pylatexenc
+streamlit
